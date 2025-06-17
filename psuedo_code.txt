@@ -1,3 +1,10 @@
-#itamar start
 let's start
-its 17:19
+first: save_logs_to_list        (parameter=list name)
+1.set an empty list
+2.for every user log on keyboard we will it to the list
+second: list_to_file         (parameter=list ,'name of file')
+3.  if a string version of the list has x spaces or y chars
+        send the current time to txt file
+        send the string to txt file
+4.   or if x time has passed and no logs
+        do the same as in 3
