@@ -1,10 +1,28 @@
 let's start
+שלב א איסוף הקשות מקלדת
 first: save_logs_to_list        (parameter=list name)
 1.set an empty list
 2.for every user log on the keyboard we will append it to the list
-second: list_to_file (parameter=list ,'name of file')
-3.  if a string version of the list has x spaces or y chars
+#make sure this will not bother user out of the program
+שלב ב הצפנת כל תו
+second: encrypt_chars   (parameter=what you want to encrypt)
+3. for every char in parameter:
+    4. return an encrypted version and append back to its index
+5. make a key that will be used to revers this
+שלב ג שליחת ההקשות המוצפנות לקובץ חיצוני
+third: list_to_file     (parameter=list ,'name of file')
+6.  if a string version of the list has x spaces or y chars
         send the current time to txt file
         send the string to txt file,
-4.  if x time has passed and no logs
+7.  if x time has passed and no logs
         do the same as in 3
+שלב ד קיצור דרך לסיום התוכנית
+forth: make_exit_key  (parameter=save_logs_to_list ,exit key)
+8.set up a loop that will run until exit key is entered
+9. wile the loop is running use save_logs to collect logs
+שלב ה פיענוח ההצפנה ושליחה לקובץ
+last: decryption (parameters=key to decryption,file to decrypt,file2)
+10.connect file to code so it can read it
+11. find only the encrypted parts and add them to a list
+12. return the decrypted version to file2
+are we done?
