@@ -14,7 +14,8 @@ def on_press(key):
     pressed_keys.append(str(key))
     print(pressed_keys[-4:])
     if pressed_keys[-4:] == ["'s'","'h'","'o'","'w'"]:
-        print(log_dict)
+        for time, value in log_dict.items():
+             print(time + '\n' + '  ' + value)
 
     count += 1
     # print('{0} pressed', format(key))
