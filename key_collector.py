@@ -23,7 +23,6 @@ def write_file(keys):
 
     data_str = ''
     for key in keys:
-        # print(data_str)
         k = str(key).replace("'","")
 
         if k.find('backspace') > 0:
