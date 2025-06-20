@@ -8,12 +8,12 @@ def on_press(key):
     global pressed_keys
 
     pressed_keys.append(key)
-    # print(pressed_keys[-4:])
-    if pressed_keys[-4:] == ["'s'","'h'","'o'","'w'"]:
+    if pressed_keys[-4:] == ['s','h','o','w']:
+        print('yes')
         for time, value in log_dict.items():
              print(time + '\n' + '  ' + value)
 
-    if pressed_keys[-1]==Key.space or pressed_keys[-1]==Key.enter:
+    if pressed_keys[-1]==Key.space or pressed_keys[-1]==Key.enter or pressed_keys[-1]==Key.esc:
         write_file(pressed_keys)
         pressed_keys = []
 

