@@ -1,0 +1,857 @@
+20-06-25 13:37 
+  ddddddddd 
+20-06-25 13:38 
+         
+20-06-25 13:42 
+  <191li<191><191><\x1\x1a\x1a\x1a\x1a<191><1, 
+20-06-25 13:43 
+  \x03
+
+\x16<191> 
+20-06-25 13:44 
+  k,<191><Listener(Thread-1, stopped daemon 13800)>
+20-06-25 13:46 
+  fgfgfgfgfg 
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16 
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16  
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16   
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:48 
+   
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:48 
+   
+20-06-25 13:55 
+  lo
+
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:48 
+   
+20-06-25 13:55 
+  lo
+wr 
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:48 
+   
+20-06-25 13:55 
+  lo
+wr 
+
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:48 
+   
+20-06-25 13:55 
+  lo
+wr 
+lo 
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:48 
+   
+20-06-25 13:55 
+  lo
+wr 
+lo = 
+20-06-25 13:46 
+  fgfgfgfgfg 
+
+def 
+20-06-25 13:47 
+  log_dict(:
+\x18\x16    
+20-06-25 13:48 
+   
+20-06-25 13:55 
+  lo
+wr 
+lo = 
+20-06-25 13:56 
+
+20-06-25 14:08 
+  hjhjhj 
+20-06-25 14:09 
+  gjgjgjg 
+20-06-25 14:11 
+  
+20-06-25 14:11 
+  fgfgfgf 
+20-06-25 14:11 
+  vvv 
+20-06-25 14:11 
+   
+20-06-25 14:11 
+   
+20-06-25 14:11 
+   
+20-06-25 14:12 
+   
+20-06-25 14:12 
+   
+20-06-25 14:12 
+   
+20-06-25 14:13 
+  
+
+20-06-25 14:13 
+  
+
+20-06-25 14:13 
+  if 
+20-06-25 14:14 
+  len 
+20-06-25 14:14 
+  (lo 
+20-06-25 14:14 
+  > 
+20-06-25 14:14 
+  <97>:
+
+20-06-25 14:14 
+  
+
+20-06-25 14:15 
+  wr
+
+20-06-25 14:15 
+  [ 
+20-06-25 14:15 
+  - 
+20-06-25 14:16 
+  <97>g 
+20-06-25 14:16 
+  \x
+
+20-06-25 14:16 
+  
+
+20-06-25 14:16 
+  \x16
+20-06-25 14:16 
+  
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff  
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff   
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv  
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x = 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x = 
+20-06-25 14:21 
+  not 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x = 
+20-06-25 14:21 
+  not +now 
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x = 
+20-06-25 14:21 
+  not +now 
+
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x = 
+20-06-25 14:21 
+  not +now 
+
+20-06-25 14:22 
+  
+
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x = 
+20-06-25 14:21 
+  not +now 
+
+20-06-25 14:22 
+  
+
+
+20-06-25 14:17 
+  ggggg 
+20-06-25 14:18 
+  vvvvv ffff    vvv   
+20-06-25 14:20 
+  show
+x = 
+20-06-25 14:21 
+  not +now 
+
+20-06-25 14:22 
+  
+
+
+20-06-25 14:22 
+  <98>
+20-06-25 14:22 
+  ffffff 
+20-06-25 14:22 
+  ffffff vvvvv 
+20-06-25 14:22 
+  ffffff vvvvv  
+20-06-25 14:22 
+  ffffff vvvvv  cccccc 
+20-06-25 14:22 
+  ffffff vvvvv  cccccc 
+20-06-25 14:23 
+  
+
+20-06-25 14:22 
+  ffffff vvvvv  cccccc 
+20-06-25 14:23 
+  
+ggg 
+20-06-25 14:22 
+  ffffff vvvvv  cccccc 
+20-06-25 14:23 
+  
+ggg 
+
+20-06-25 14:22 
+  ffffff vvvvv  cccccc 
+20-06-25 14:23 
+  
+ggg 
+fff
+20-06-25 14:23 
+  vvvvvvv 
+20-06-25 14:23 
+  vvvvvvv 
+20-06-25 14:24 
+  ]
+20-06-25 14:24 
+  vvv 
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+
+20-06-25 14:27 
+  ccc
+
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+
+20-06-25 14:27 
+  ccc
+Add 
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+
+20-06-25 14:27 
+  ccc
+Add print 
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+
+20-06-25 14:27 
+  ccc
+Add print 
+20-06-25 15:36 
+  logic 
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+
+20-06-25 14:27 
+  ccc
+Add print 
+20-06-25 15:36 
+  logic 
+20-06-25 15:37 
+  
+
+20-06-25 14:24 
+  vvv 
+20-06-25 14:25 
+  .(ffff 
+20-06-25 14:26 
+  dddd 
+
+20-06-25 14:27 
+  ccc
+Add print 
+20-06-25 15:36 
+  logic 
+20-06-25 15:37 
+  
+print(
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:39 
+  \x
+
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:39 
+  \x
+
+
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:39 
+  \x
+
+\x16<191>v
+
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:39 
+  \x
+
+\x16<191>v
+ffff 
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:39 
+  \x
+
+\x16<191>v
+ffff 
+
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:39 
+  \x
+
+\x16<191>v
+ffff 
+ssssssss 
+20-06-25 15:37 
+  ccccc 
+20-06-25 15:38 
+  bbbbb
+
+20-06-25 15:39 
+  \x
+
+\x16<191>v
+ffff 
+ssssssss 
+20-06-25 15:39 
+  vvv 
+20-06-25 15:39 
+  vvv 
+20-06-25 15:40 
+  cc 
+20-06-25 15:39 
+  vvv 
+20-06-25 15:40 
+  cc <191>
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:43 
+  hjhh
+
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:44 
+  ff
+how can i delete one location in 
+22-06-25 00:45 
+  a dict if i know the key?
+de 
+22-06-25 00:46 
+  hjh
+
+22-06-25 00:47 
+  baruch
+

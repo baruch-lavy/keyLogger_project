@@ -7,6 +7,6 @@ file=mkdir('test.txt')
 def write_in_file(file_name,insert):
     with open(file_name,'a') as f:
         f.write(insert)
-
-write_in_file('test.txt','this is a test run \nhope it works\n')
+txt='this is a test run \nhope it works\n'
+write_in_file('test.txt',txt)
 write_in_file('test2.txt','it dose work!!')
